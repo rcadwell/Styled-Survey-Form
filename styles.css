@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fb%2Fc%2F9%2F405833-widescreen-coding-wallpaper-1920x1080-for-iphone-6.jpg&f=1&nofb=1&ipt=0b939da468ea434159cde36515840d0105c7037e179ce8d1ab68079b8bc0755d&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(4, 12, 255, 0.8); 
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#subheading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  position: relative;
+  top: -5px;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+select {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+label.option {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+textarea,
+input[type="text"],
+input[type="email"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#textArea1 {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+  margin: 10px auto 0;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: fit-content;
+}

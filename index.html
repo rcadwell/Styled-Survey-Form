@@ -1,0 +1,102 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div></div>
+    <form id="form">
+      <h1 id="h1">Survey Form</h1>
+      <p id="subheading">Thank you for taking the time to help us improve the platform</p>
+      <div id="mainDiv">
+        <div></div>
+        <div id="FormMain">
+          <label id="name" htmlFor="nameInput">
+            Name
+          </label>
+          <input id="nameInput" placeholder="Enter your name">
+          <label id="email" htmlFor="emailInput">
+            Email
+          </label>
+          <input id="emailInput" placeholder="Enter your email">
+          <label id="age" htmlFor="ageInput">
+            Age (optional)
+          </label>
+          <input id="ageInput" placeholder="Age">
+          <label id="role" htmlFor="roleInput">
+            Which option best describes your current role?
+          </label>
+          <select id="roleInput" required>
+            <option>*Select current role*</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select><br><br>
+          <div id="recommend">
+            Would you recommend Devslopes to a friend?
+            <div id="sideRow1">
+              <input type="radio" id="definitely" name="friend"></input>
+              <label htmlFor="definitely" id="name1">Definitely</label>
+            </div>
+            <div id="sideRow1">
+              <input type="radio" id="maybe" name="friend"></input>
+              <label htmlFor="maybe" id="name2">Maybe</label>
+            </div>
+            <div id="sideRow1">
+              <input type="radio" id="notSure" name="friend"></input>
+              <label htmlFor="notSure" id="name3">Not Sure</label>
+            </div><br>
+          </div>
+          <label htmlFor="feature">
+            What is your favorite feature of Devslopes?
+          </label>
+          <select id="feature" name="feature">
+            <option>*Select an option*</option>
+            <option value="Courses">Courses</option>
+            <option value="Video">Video</option>
+            <option value="Community">Community</option>
+            <option value="Underdog Stories">Underdog Stories</option>
+            <option value="Code Challenges">Code Challenges</option>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Mentorship">Mentorship</option>
+          </select><br><br>
+          <label htmlFor="improve">What would you like to see improved?
+          </label>
+          <div id="sideRow1">
+            <input type="checkbox" id="frontEndProjects" name="friend2"></input>
+            <label htmlFor="frontEndProjects" id="name4">
+              Front-End Projects
+            </label>
+  <input type="checkbox" id="backEndProjects" name="friend3"></input>
+  <label htmlFor="backEndProjects" id="name5">
+    Back-End Projects
+  </label>
+   <input type="checkbox" id="challenges" name="friend4"></input>
+  <label htmlFor="challenges" id="name6">
+    Challenges
+  </label>
+<input type="checkbox" id="videos" name="friend5"></input>
+  <label htmlFor="videos" id="name7">
+    Videos
+  </label>
+<input type="checkbox" id="onlineMeetups" name="friend6"></input>
+  <label htmlFor="onlineMeetups" id="name8">
+    Online Meetups
+  </label>
+<input type="checkbox" id="community" name="friend7"></input>
+  <label htmlFor="community" id="name9">
+    Community
+  </label><br>
+          </div>  
+<label htmlFor="textArea1">Any comments or suggestions?</label>
+                <textarea id="textArea1" rows="4" cols="40" placeholder="Enter your comments here."></textarea>
+              </div>
+              <button>Submit</button>
+            </div>
+            <div></div>
+          </div>
+     </form>
+</body>
